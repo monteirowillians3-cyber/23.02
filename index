@@ -7,6 +7,93 @@
     <title>Document</title>
 </head>
 <body>
-    
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .caixa-login {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        width: 280px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    button:hover {
+        background: #0056b3;
+    }
+
+    .esqueci-senha {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .esqueci-senha a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    .esqueci-senha a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="caixa-login">
+    <h2>Login</h2>
+
+    <form>
+        <input type="text" placeholder="Usuário" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <div class="esqueci-senha">
+        <a href="#">Esqueci minha senha</a>
+    </div>
+</div>
+
+</body>
+</html>
 </body>
 </html>
