@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,8 +90,8 @@
         
         <input type="text" placeholder="Usuário" required>
         <input type="password" placeholder="Senha" required>
-        <button type="redirecionamento"><a href="https://www.centauro.com.br/">Entrar</a></button> 
-    
+        <a href="file:///C:/Users/lucas58492616/OneDrive%20-%20SENAC%20DF/%C3%81rea%20de%20Trabalho/Web/23.02/usuario.html?" class="botao">Entrar</a>
+        
     </form>
 
     <div class="esqueci-senha">

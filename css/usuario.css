@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    animation-timing-function: cubic-bezier();
+   
+}
+h2{
+    text-align: center;
+    animation: delay 5s;
+}
+form{
+    text-align: center;
+    
+
+}
